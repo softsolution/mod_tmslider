@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<backend>
+    <module>
+        <id>mod_tmslider</id>
+        <title>TMSlader - СуперСлайдер</title>
+    </module>
+    <params>
+        <param type="number" name="shownum" title="Количество фотографий" units="шт." default="5" />
+        <param type="list_db" name="album_id" title="Фотографии из альбома" src="cms_photo_albums" src_title="title" src_value="id" tree="1">
+            <option title="-- Все альбомы --" value="0" />
+        </param>
+        <param type="list" name="bannereffect" title="Направление баннера">
+            <option title="Слева" value="fromLeft" />
+            <option title="Справа" value="fromRight" />
+            <option title="Сверху" value="fromTop" />
+            <option title="Снизу" value="fromBottom" />
+        </param>
+        <param type="number" name="width" title="Ширина фотографии" units="px." default="565" />
+        <param type="number" name="height" title="Высота фотографии" units="px." default="290" />
+		<param type="number" name="duration" title="Продожительность" units="мс" default="10000" />
+		<param type="number" name="slideshow" title="Продожительность слайдшоу" units="мс" default="7000" />
+        <param type="flag" name="shownav" title="Показывать навигацию" default="on" />
+		<param type="flag" name="pauseOnHover" title="Пауза при наведении" default="off" />
+    </params>
+</backend>

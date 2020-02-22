@@ -1,0 +1,165 @@
+.tmslider-box { position:relative; overflow:hidden; z-index:2}
+
+.tmslider {
+    width:900px;
+    margin:0 auto;
+    position:relative;
+    z-index:2
+}
+.items {
+    display:none;
+}
+
+.pagination {
+    background: url("../images/pagination-bg.gif") repeat-x scroll left top rgba(0, 0, 0, 0);
+    border: 1px solid #000;
+    border-radius: 15px;
+    display: inline-block;
+    height: 20px;
+    left: 388px;
+    padding: 5px 0 0 20px;
+    position: absolute;
+    top: 551px;
+    width: 140px;
+    z-index: 60;
+    margin: 0;
+}
+.pagination li {
+    float:left;
+    padding:0 3px 0 0;
+    font-size:0;
+    line-height:0;
+    margin:0;
+    color:#252525;
+    background:none !important;
+}
+.pagination a {
+    display:block;
+    width:15px;
+    height:15px;
+    background:url(../images/pagination-a-bg.gif) left 0px no-repeat;
+    font-size:0;
+    line-height:0;
+    text-decoration:none;
+}
+.pagination li.current a {
+    background:url(../images/pagination-a-active.gif) left 0px no-repeat;
+}
+
+.tmprev {
+    display:block;
+    width:25px;
+    height:22px;
+    background:url(../images/pagination-bg.gif) left top repeat-x;
+    position:absolute;
+    z-index:15;
+    border-radius:15px;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+    top:552px;
+    left:359px;
+    padding:2px 0 0 0;
+    font-weight:bold;
+    text-align:center;
+    color:#fff;
+    text-decoration:none;
+}
+.tmprev:hover { color:#999 }
+
+.tmnext {
+    display:block;
+    width:25px;
+    height:22px;
+    background:url(../images/pagination-bg.gif) left top repeat-x;
+    position:absolute;
+    z-index:15;
+    border-radius:15px;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+    top:552px;
+    left:553px;
+    padding:2px 0 0 0;
+    font-weight:bold;
+    text-align:center;
+    color:#fff;
+    text-decoration:none;
+}
+.tmnext:hover {
+    color:#999
+}
+	
+.tmplay {
+    display:block;
+    width:45px;
+    height:22px;
+    background:url(../images/pagination-bg.gif) left top repeat-x;
+    position:absolute;
+    z-index:15;
+    border-radius:15px;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+    top:552px;
+    left:823px;
+    padding:2px 0 0 0;
+    text-align:center;
+    color:#fff;
+    text-decoration:none;
+}
+.tmplay span {
+    display:none;
+}
+.tmplay em {
+    font-style:normal;
+    display:block;
+}
+.paused span {
+    display:block;
+}
+.paused em {
+    display:none;
+}
+.banner{
+    width:260px;
+    overflow:hidden;
+    position:absolute;
+    top:200px;
+    color:#fff;
+    right:0px;
+    z-index:15;
+    background:url(../images/png.png) left top repeat;
+    padding:0px;
+    border-radius:10px 0 0 10px;
+    -moz-border-radius:10px 0 0 10px;
+    -webkit-border-radius:10px 0 0 10px;
+}
+.banner span {
+    display:block;
+    padding:20px;
+}
+
+.progbar {
+    background:#000;
+    width:100%;
+    height:2px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    z-index:999;
+}
+.numStatus {
+    display:block;
+    width:45px;
+    height:22px;
+    background:url(../images/pagination-bg.gif) left top repeat-x;
+    position:absolute;
+    z-index:15;
+    border-radius:15px;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+    top:551px;
+    left:583px;
+    padding:2px 0 0 0;
+    text-align:center;
+    color:#fff;
+    text-decoration:none;
+}
